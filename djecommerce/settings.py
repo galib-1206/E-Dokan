@@ -33,7 +33,7 @@ MIDDLEWARE = [
 ]
 
 
-ROOT_URLCONF = 'demo.urls'
+ROOT_URLCONF = 'djecommerce.urls'
 
 TEMPLATES = [
     {
