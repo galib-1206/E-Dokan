@@ -4,3 +4,9 @@ Among other functionality,
 - add items to their cart and 
 - purchase those items using Stripe.
 
+commands: 
+
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+
