@@ -9,8 +9,8 @@ Among other functionality,
 
 ## Backend development workflow
 
-```json
-python version recommended 3.8.10 
+python version recommended 3.8.10
+```json 
 virtualenv env
 source env/bin/activate
 pip install -r requirements.txt
@@ -21,8 +21,8 @@ python manage.py runserver
 
 ## Frontend development workflow
 
-```json
 nvm version recommended 16
+```json
 npm i
 npm start
 ```
