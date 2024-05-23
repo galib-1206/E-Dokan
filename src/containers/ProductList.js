@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from "axios";
+import { productListURL } from '../constants';
 import {
     ItemMeta,
     ItemImage,
@@ -32,7 +33,7 @@ class ProductList extends React.Component {
     componentDidMount() {
         this.setState({ loading: true });
         axios
-            .get("/some_url")
+            .get(productListURL)
             .then(res => {
                 this.setState({ data: res.data, loading: false });
             })
