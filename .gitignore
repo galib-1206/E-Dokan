@@ -4,5 +4,6 @@ env
 db.sqlite3
 node_modules
 build
+media
 static
 package-lock.json
